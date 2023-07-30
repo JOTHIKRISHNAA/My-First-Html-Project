@@ -1,0 +1,25 @@
+body{
+    background-image: url('image.jpg');
+    text-align: center;
+}
+.a{
+    color: yellow;
+    text-align: center;
+}
+.b{
+    color: cyan;
+    text-align: center;
+}
+.c{
+   text-align: center;
+   color:white;
+   font-style: italic;
+}
+.d{
+text-align: center;
+color: rgb(201, 242, 242);
+font-style: italic;
+}
+.x{
+
+}

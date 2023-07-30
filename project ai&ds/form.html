@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        function msg(){
+            alert("Registered Succesfully")
+        }
+    </script>
+    <style>
+        input[type=submit]:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+    </style>
+
+</head>
+<body style="background-IMAGE:url('image.jpg') ">
+    <div style="border:solid 5px padding-left:2px; color:white;">
+    <H1 style="text-align: CENTER">SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY</H1>
+    <h1 style="text-align: CENTER" class="r">REGISTRATION FORM</h1>
+    <h2 style="text-align: CENTER" class="d">DEPARTMENT OF AI&DS</h2>
+    <form style="text-align: center">
+        <label>FIRST NAME</label>
+        <input type="text" placeholder="ENTER FIRST NAME" >
+        
+        <br><br>
+        <label>LAST NAME</label>
+        <input type="text" placeholder="ENTER LAST NAME">
+        <br><br>
+
+        <label>PHONE NO.</label>
+        <input type="number" placeholder="ENTER YOUR NUMBER">
+        <br><br>
+        <label>DATE OF BIRTH</label>
+        <input type="date">
+        <br><br>
+        <label>EMAIL</label>
+        <input type="email" placeholder="ENTER YOUR MAILID">
+        <br><br>
+        <LAbel>DEPARTMENT</LAbel>
+        <select>
+            <option value="">SELECT DEPARTMENT</option>
+            <option value="">AI&DS</option>
+            <option value="">CSE</option>
+            <option value="">IT</option>
+            <option value="">CSBS</option>
+        </select>
+        <br><br>
+        
+        <label>PASSWORD</label>
+        <input type="password" placeholder="enter password"><br><br>
+
+        <input style="cursor: pointer; input[type=submit]:hover{
+            background-color: green;
+        }"  type="submit" name="" value="REGISTER" onclick="msg()"/>
+
+
+    </form>
+    </div>
+
+</body>
+</html>
